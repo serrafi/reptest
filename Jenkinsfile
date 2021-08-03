@@ -4,8 +4,7 @@ node {
         git credentialsId: 'ibraboy', url: 'https://github.com/serrafi/reptest'
         
     }
-    stage('docker Build image ') {
-        sh 'docker build -t ibrahimserrafi/img1:latest identidock/.'
+    stage('docker  image ') 
         sh 'docker images'
     }   
 }
