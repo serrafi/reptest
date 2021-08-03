@@ -4,7 +4,7 @@ node {
         git credentialsId: 'ibraboy', url: 'https://github.com/serrafi/reptest'
         
     }
-    stage('docker  image ') 
+    stage('docker  image ') {
         sh 'docker images'
     }   
 }
